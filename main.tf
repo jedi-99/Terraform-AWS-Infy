@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "b" {
   }
   
   tags {
-    env = "prd"
+    env = "uat"
   }
   
 }
