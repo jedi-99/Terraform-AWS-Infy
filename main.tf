@@ -11,6 +11,10 @@ resource "aws_s3_bucket" "b" {
     }
   }
   
+  tags {
+    env = "prd"
+  }
+  
 }
 
 resource "aws_s3_bucket_versioning" "versioning_config" {
